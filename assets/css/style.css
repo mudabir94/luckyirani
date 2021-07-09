@@ -6291,17 +6291,7 @@ table.shopping-cart-table tr td{
     animation-duration: 1.2s;
 }
 
-.background-parallex-services {
-    background-image: url("/assets/images/dummy/colorfullbkgd1.jpg");
- }
-.background-parallex-contact {
-    position: relative;
-    background-image: url("/assets/images/dummy/bkgd2.png");
-}
-.background-parallex-vision {
-    
-    background-image: url("/assets/images/dummy/vission.jpg");
-}
+
 .vision-text{
     color: #ffb400;
     font-weight: 700;
