@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/luckyirani/static/css/main.a617e044.chunk.css",
+    "main.js": "/luckyirani/static/js/main.c5f98de9.chunk.js",
+    "main.js.map": "/luckyirani/static/js/main.c5f98de9.chunk.js.map",
+    "runtime-main.js": "/luckyirani/static/js/runtime-main.9d57e90d.js",
+    "runtime-main.js.map": "/luckyirani/static/js/runtime-main.9d57e90d.js.map",
+    "static/js/2.edc6dbbf.chunk.js": "/luckyirani/static/js/2.edc6dbbf.chunk.js",
+    "static/js/2.edc6dbbf.chunk.js.map": "/luckyirani/static/js/2.edc6dbbf.chunk.js.map",
+    "static/js/3.8cdc6c04.chunk.js": "/luckyirani/static/js/3.8cdc6c04.chunk.js",
+    "static/js/3.8cdc6c04.chunk.js.map": "/luckyirani/static/js/3.8cdc6c04.chunk.js.map",
+    "index.html": "/luckyirani/index.html",
+    "static/css/main.a617e044.chunk.css.map": "/luckyirani/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.edc6dbbf.chunk.js.LICENSE.txt": "/luckyirani/static/js/2.edc6dbbf.chunk.js.LICENSE.txt",
+    "static/media/girlheader.118d5484.mp4": "/luckyirani/static/media/girlheader.118d5484.mp4",
+    "static/media/side1.548abb35.jpg": "/luckyirani/static/media/side1.548abb35.jpg",
+    "static/media/side2.783d54be.jpg": "/luckyirani/static/media/side2.783d54be.jpg",
+    "static/media/trap1.44fb92b5.jpg": "/luckyirani/static/media/trap1.44fb92b5.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9d57e90d.js",
+    "static/js/2.edc6dbbf.chunk.js",
+    "static/css/main.a617e044.chunk.css",
+    "static/js/main.c5f98de9.chunk.js"
+  ]
+}
