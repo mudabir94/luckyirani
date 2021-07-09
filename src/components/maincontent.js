@@ -1,4 +1,5 @@
 import React from 'react';
+import Video1 from "../video/colorfulvid1.mp4"
 import Video2 from "../video/girlheader.mp4"
 import side1 from "../images/side1.jpg"
 import side2 from "../images/side2.jpg"
