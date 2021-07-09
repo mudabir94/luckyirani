@@ -13,7 +13,7 @@ function MainContent(props){
         <React.Fragment>
 
             <main id="main">
-                <section className="home-section bg-dark-alfa-50 light-content relative" data-background="video/video.jpg" id="home">
+                <section className="home-section bg-dark-alfa-50 light-content relative"  id="home">
                        <div className="container min-height-100vh d-flex align-items-center pt-100 pb-100">
                         
                         <div className="bg-video-wrapper">
@@ -50,7 +50,7 @@ function MainContent(props){
 
                 
 
-                <section className="page-section bg-dark light-content background-parallex-vision" id="about">
+                <section className="page-section  background-parallex-vision" id="about">
                     <div className="container relative vision-text">
                         
                         <div className="mb-120 mb-sm-50 mb-xs-20">
@@ -315,7 +315,7 @@ function MainContent(props){
                         <div className="col-sm-6 mb-xs-40">
                             
                             <div className="video">
-                                <iframe loading="eager" width="640" height="360" src="http://www.youtube.com/embed/JuyB7NO0EYY" allowFullScreen></iframe>
+                                <iframe loading="eager"  src="http://www.youtube.com/embed/JuyB7NO0EYY" allowFullScreen></iframe>
                             </div>
                             
                         </div>
@@ -643,7 +643,7 @@ function MainContent(props){
             <hr className="mt-0 mb-0 white" />
 
 
-            <section className="page-section bg-dark bg-dark-alfa-70 bg-scroll light-content" data-background="images/full-width-images/section-bg-2.jpg">
+            <section className="page-section bg-dark bg-dark-alfa-70 bg-scroll light-content" >
                 <div className="container relative">
                 
                 <div className="row">
