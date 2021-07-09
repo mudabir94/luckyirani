@@ -502,7 +502,7 @@ function MainContent(props){
             <section className="page-section pb-0 bg-dark light-content" id="portfolio">
                 <div className="bg-video-wrapper">
                                 <video className="bg-video" preload="auto" autoPlay loop muted playsInline data-object-fit="cover">
-                                    <source src={Video2} type="video/mp4"/>
+                                    <source src={Video1} type="video/mp4"/>
                                     <source src="video/video.webm" type="video/webm"/>                                    
                                 </video>
                                 <div className="bg-video-overlay bg-dark-alfa-30"></div>
