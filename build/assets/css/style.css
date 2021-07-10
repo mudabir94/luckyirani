@@ -101,9 +101,18 @@ Primary use: Multipurpose Template
     font-family: 'HK_Grotesk';
     src: url('../webfonts/hkgrotesk-regular-webfont.woff2') format('woff2'),
          url('../webfonts/hkgrotesk-regular-webfont.woff') format('woff');
+
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family:'gloss';
+    src: 
+    url('../webfonts/Gloss_And_Bloom.woff2')  format('woff2'),
+    url('../webfonts/Gloss_And_Bloom.ttf')  format('truetype');
+    font-weight: inherit;
+    font-style: normal;
+  }
 @font-face {
     font-family: 'HK_Grotesk_alt';
     src: url('../webfonts/hkgrotesk-regular-webfont-alt.woff2') format('woff2'),
@@ -6296,7 +6305,10 @@ table.shopping-cart-table tr td{
     color: #ffb400;
     font-weight: 700;
     font-size:x-large;
-    text-shadow: 2px 2px 4px #fbfbfb;
+    text-shadow: 2px 2px 4px black;
+}
+.gloss-font{
+    font-family: 'gloss';
 }
 .vision-boxes{
     text-shadow: 2px 2px 4px #242323;
@@ -6311,5 +6323,10 @@ table.shopping-cart-table tr td{
 #lucky-word{
     color:#ffb400;
 }
-
+.about-event{
+    margin-top:2%;
+}
+.about-eventp{
+    margin-top:12%;
+}
 
