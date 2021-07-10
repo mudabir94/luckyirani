@@ -1,9 +1,8 @@
 import React from 'react';
-import Video1 from "../video/colorfulvid1.mp4"
 import Video2 from "../video/girlheader.mp4"
-import side1 from "../images/side1.jpg"
-import side2 from "../images/side2.jpg"
 import trap1 from "../images/trap1.jpg"
+import trap2 from "../images/trap2.jpg"
+
 
 
 
@@ -48,33 +47,27 @@ function MainContent(props){
                     
                 </section>
 
-                
-
-                <section className="page-section  background-parallex-vision" id="about">
-                    <div className="container relative vision-text">
-                        
-                        <div className="mb-120 mb-sm-50 mb-xs-20">
-                            <div className="row section-text">
-                            
-                                <div className="col-md-12 col-lg-4 mb-md-50 mb-xs-30">
-                                    <div className="lead-alt wow linesAnimIn " data-splitting="lines">
-                                        Vision
-                                    </div>
-                                </div>
-                                
-                                <div className="col-md-6 col-lg-4 mb-sm-50 mb-xs-30 wow linesAnimIn" data-splitting="lines">
+                <section class="small-section bg-dark light-content ">
+                    <div class="container relative">
+                        <div class="row wow fadeInUpShort">
+                            <div class="col-md-8 offset-md-2 text-center">
+                                <h3 class="call-action-1-heading gloss-font" style={{color:"#ffb400"}}>Vision</h3>
+                                <div class="call-action-1-decription mb-60 mb-sm-30 vision-text">
                                     Our vision is to spread happiness and inspire our audience to follow their dreams. We know this is a very big challenge to accomplish by performing arts, but we believe it ́s important to set our goals high.
-
-                                </div>
-                                
-                                <div className="col-md-6 col-lg-4 mb-sm-50 mb-xs-30 vision-gif" data-splitting="lines">
                                     We think the combination of impressive circus skills, humor and the intensive interaction with the audience on stage is a very good toolbox to deliver the message we believe in.
-
-                                </div>
+                                </div>                                        
+                            
                                 
                             </div>
                         </div>
-                        
+                    </div>
+                </section>
+                
+
+
+
+                <section className="page-section" id="about">
+                    <div className="container relative vision-text">
                         
                         <div className="count-wrapper">
                             <div className="row">
@@ -148,35 +141,170 @@ function MainContent(props){
                     </div>
                 </section>
                 
-                <hr className="mt-0 mb-0 white" />
+            <hr className="mt-0 mb-0 white" />
 
-                <section id="aboutevent">
-                    <div className="container" data-aos="fade-up">
-                        <div className="row">
-                        <div className="col-lg-6">
-                            <h2>About The Event</h2>
-                            <p>Sed nam ut dolor qui repellendus iusto odit. Possimus inventore eveniet accusamus error amet eius aut
-                            accusantium et. Non odit consequatur repudiandae sequi ea odio molestiae. Enim possimus sunt inventore in
-                            est ut optio sequi unde.</p>
-                        </div>
-                        <div className="col-lg-3">
-                            <h3>Where</h3>
-                            <p>Downtown Conference Center, New York</p>
-                        </div>
-                        <div className="col-lg-3">
-                            <h3>When</h3>
-                            <p>Monday to Wednesday<br/>10-12 December</p>
-                        </div>
+            <section className="page-section pb-0" id="portfolio">
+            
+            <div className="full-wrapper relative">
+                
+                
+                <div className="text-center mb-80 mb-sm-50">
+                    <h2 className="section-title gloss-font">BREATHING ACTS</h2>
+                    <p className="section-title-descr">
+                        Take a look at some of them
+                    </p>
+                </div>
+                
+                                    
+                <div className="works-filter text-center" role="tablist">
+                    <a href="#" className="filter active" role="tab" aria-selected="true" data-filter="*">Trapeze Acts</a>
+                    <a href="#branding" className="filter" role="tab" aria-selected="false" data-filter=".branding">Acrobats</a>
+                    <a href="#design" className="filter" role="tab" aria-selected="false" data-filter=".design">Clowns</a>
+                    <a href="#photography" className="filter" role="tab" aria-selected="false" data-filter=".photography">jugglers</a>
+                </div>                    
+                
+                <ul className="works-grid work-grid-3 work-grid-gut clearfix hide-titles" id="work-grid">
+                    
+                    <li className="work-item mix photography">
+                        <a href="images/portfolio/full-project-1.jpg" className="work-lightbox-link mfp-image">
+                            <div className="work-img">
+                                <div className="work-img-bg wow-p scalexIn"></div>
+                                <img src={trap1} alt="Work Description" className="wow-p fadeIn" data-wow-delay="1s" />
+                            </div>
+                            <div className="work-intro">
+                                <h3 className="work-title">Tripple Trapeze</h3>
+                                <div className="work-descr">
+                                    Details 
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    
+                    <li className="work-item mix branding design">
+                        <a href="portfolio-single-1-dark.html" className="work-ext-link">
+                            <div className="work-img">
+                                <div className="work-img-bg wow-p scalexIn"></div>
+                                <img src={trap2} alt="Work Description" className="wow-p fadeIn" data-wow-delay="1s" />
+                            </div>
+                            <div className="work-intro">
+                                <h3 className="work-title">Tripple Trapeze</h3>
+                                <div className="work-descr">
+                                    Details
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    
+                    <li className="work-item mix branding">
+                        <a href="portfolio-single-1-dark.html" className="work-ext-link">
+                            <div className="work-img">
+                                <div className="work-img-bg wow-p scalexIn"></div>
+                                <img src={trap1} alt="Work Description" className="wow-p fadeIn" data-wow-delay="1s" />
+                            </div>
+                            <div className="work-intro">
+                                <h3 className="work-title">Tripple Trapeze</h3>
+                                <div className="work-descr">
+                                    Details
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    
+                    <li className="work-item mix design photography">
+                        <a href="portfolio-single-1-dark.html" className="work-ext-link">
+                            <div className="work-img">
+                                <div className="work-img-bg wow-p scalexIn"></div>
+                                <img src={trap1} alt="Work Description" className="wow-p fadeIn" data-wow-delay="1s" />
+                            </div>
+                            <div className="work-intro">
+                                <h3 className="work-title">Tripple Trapeze</h3>
+                                <div className="work-descr">
+                                    Details
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    
+                    <li className="work-item mix design">
+                        <a href="portfolio-single-1-dark.html" className="work-ext-link">
+                            <div className="work-img">
+                                <div className="work-img-bg wow-p scalexIn"></div>
+                                <img src={trap1} alt="Work Description" className="wow-p fadeIn" data-wow-delay="1s" />
+                            </div>
+                            <div className="work-intro">
+                                <h3 className="work-title">Tripple Trapeze</h3>
+                                <div className="work-descr">
+                                    Details
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    
+                    <li className="work-item mix design branding">
+                        <a href="images/portfolio/full-project-6.jpg" className="work-lightbox-link mfp-image">
+                            <div className="work-img">
+                                <div className="work-img-bg wow-p scalexIn"></div>
+                                <img src={trap1} alt="Work Description" className="wow-p fadeIn" data-wow-delay="1s" />
+                            </div>
+                            <div className="work-intro">
+                                <h3 className="work-title">Tripple Trapeze</h3>
+                                <div className="work-descr">
+                                    Details
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    
+                </ul>
+                <section className="small-section bg-dark-lighter light-content " >
+                    <div className="container relative ">
+                        <div className="row wow fadeInUpShort">
+                            <div className="col-lg-5 offset-lg-2">
+                                <h3 className="call-action-1-heading">Want to see more works?</h3>
+                                <div className="call-action-1-decription mb-0 pb-md-20">
+                                    Proin fringilla augue at maximus vestibulum nam pulvinar vitae integer non dapibus diam, ac eleifend lectus.
+                                </div>                                        
+                            </div>
+                            <div className="col-lg-3 pt-10 text-lg-end">
+                                <div className="local-scroll">
+                                    <a href="portfolio-wide-gutter-3col-dark.html" className="btn btn-mod btn-w btn-large btn-round">View Portfolio</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
-            </section>
+                </section>
+
+            </div>
+        </section>
+        
+            <hr className="mt-0 mb-0 white" />
+
+            <section id="aboutevent">
+                <div className="container" data-aos="fade-up">
+                    <div className="row about-event">
+                    <div className="col-lg-6">
+                        <h2 className="gloss-font">About The Event</h2>
+                        <p>Sed nam ut dolor qui repellendus iusto odit. Possimus inventore eveniet accusamus error amet eius aut
+                        accusantium et. </p>
+                    </div>
+                    <div className="col-lg-3">
+                        <h3 className="gloss-font">Where</h3>
+                        <p className="about-eventp">DHA, Lahore</p>
+                    </div>
+                    <div className="col-lg-3">
+                        <h3 className="gloss-font">When</h3>
+                        <p className="about-eventp">Monday to Wednesday<br/>1-3 August</p>
+                    </div>
+                    </div>
+                </div>
+        </section>
 
             <hr className="mt-0 mb-0 white" />
 
             <section id="schedule" className="section-with-bg">
                     <div className="container" data-aos="fade-down" data-aos-delay="100">
                         <div className="section-header">
-                        <h2>Event Schedule</h2>
+                        <h2 className="gloss-font">Event Schedule</h2>
                         <p>Here is our event schedule</p>
                         </div>
 
@@ -305,7 +433,7 @@ function MainContent(props){
             <section className="page-section">
                 <div className="container relative">
                         <div className="home-content wow fadeInUpShort">
-                            <h1 className="hs-line-7 mb-60 mb-xs-40">Last Event Highlights</h1>
+                            <h1 className="hs-line-7 mb-60 mb-xs-40 neonText gloss-font">Last Event Highlights</h1>
                             
                         </div>
                     <div className="row">
@@ -326,12 +454,12 @@ function MainContent(props){
                 
                 </div>
             </section>
+            <section className="home-section service-background" >
 
-            <section className="home-section bg-dark bg-dark-alfa-50 light-content background-parallex-services" >
                     <div className="container fixed-height-small d-flex align-items-center">
                        
                         <div className="home-content wow fadeInUpShort">
-                            <h1 className="hs-line-7 mb-60 mb-xs-40">Services</h1>
+                            <h1 className="hs-line-7 mb-60 mb-xs-40 gloss-font">Services</h1>
                             <div className="local-scroll mb-20">
                                 <a href="#" className="btn btn-mod btn-w btn-medium btn-round mx-md-1">View Services</a>
                             </div>
@@ -344,7 +472,7 @@ function MainContent(props){
                 <div className="container" data-aos="fade-up">
 
                     <div className="section-header">
-                    <h2>Buy Tickets</h2>
+                    <h2 className="gloss-font" >Buy Tickets</h2>
                     <p>Ticket Prices.... </p>
                     </div>
 
@@ -390,7 +518,7 @@ function MainContent(props){
                 </div>
 
                         <div className="col-lg-4" data-aos="fade-up" data-aos-delay="600">
-                    <div className="card" style={{background:"#d4af37"}}>
+                    <div className="card" style={{background:"#ffb400"}}>
                     <div className="card-body">
                         <h5 className="card-title text-muted text-uppercase text-center">Gold Pass</h5>
                         <h6 className="card-price text-center">Rs 1000</h6>
@@ -417,7 +545,7 @@ function MainContent(props){
         <div className="modal-dialog" role="document">
           <div className="modal-content">
             <div className="modal-header">
-              <h4 className="modal-title">Buy Tickets</h4>
+              <h4 className="modal-title gloss-font">Buy Tickets</h4>
               <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             
@@ -434,7 +562,7 @@ function MainContent(props){
                 <div className="container-fluid" data-aos="fade-up">
 
                     <div className="section-header">
-                    <h2>Event Venue</h2>
+                    <h2 className="gloss-font">Event Venue</h2>
                     <p>Event venue location info and gallery</p>
                     </div>
 
@@ -464,183 +592,11 @@ function MainContent(props){
 
 
 
-            <section className="page-section pt-0 pb-0 banner-section ">
-                <div className="container relative">
-                    
-                    <div className="row">
-                        
-                        <div className="col-lg-6 relative">
-                            <div className="banner-image-1">
-                                <img src={side1} alt="" className="wow scaleOutIn" data-wow-duration="1.2s" data-wow-offset="292" />
-                            </div>
-                            <div className="banner-image-2">
-                                <img src={side2} alt="" className="wow scaleOutIn" data-wow-duration="1.2s" data-wow-offset="70" />
-                            </div>
-                        </div>
-                        
-                        <div className="col-lg-5 offset-lg-1 ">                                
-                            <div className="mt-140 mt-lg-80 mt-md-60 mt-xs-30 mb-140 mb-lg-80">
-                                <div className="banner-content wow fadeInUpShort " data-wow-duration="1.2s">
-                                    <h3 className="banner-heading neonText">View Our International Artists</h3>
-                                    <div className="banner-decription ">
-                                        Proin fringilla augue at maximus vestibulum. Nam pulvinar vitae porttitor. Integer non dapibus diam, ac eleifend lectus.
-                                    </div>
-                                    <div className="local-scroll">
-                                        <a href="pages-services-1-dark.html" className="btn btn-mod btn-w btn-large btn-round">View Artists</a>
-                                    </div>
-                                </div>
-                            </div>                                
-                        </div>
-                        
-                    </div>
-                    
-                </div>
-            </section>
             
             <hr className="mt-0 mb-0 white" />
 
             
-            <section className="page-section pb-0 bg-dark light-content" id="portfolio">
-                <div className="bg-video-wrapper">
-                                <video className="bg-video" preload="auto" autoPlay loop muted playsInline data-object-fit="cover">
-                                    <source src={Video1} type="video/mp4"/>
-                                    <source src="video/video.webm" type="video/webm"/>                                    
-                                </video>
-                                <div className="bg-video-overlay bg-dark-alfa-30"></div>
-                </div>
-                <div className="full-wrapper relative">
-                    
-                    
-                    <div className="text-center mb-80 mb-sm-50">
-                        <h2 className="section-title">ACTS</h2>
-                        <p className="section-title-descr">
-                            Take a look at some of them
-                        </p>
-                    </div>
-                    
-                                        
-                    <div className="works-filter text-center" role="tablist">
-                        <a href="#" className="filter active" role="tab" aria-selected="true" data-filter="*">Trapeze Acts</a>
-                        <a href="#branding" className="filter" role="tab" aria-selected="false" data-filter=".branding">Acrobats</a>
-                        <a href="#design" className="filter" role="tab" aria-selected="false" data-filter=".design">Clowns</a>
-                        <a href="#photography" className="filter" role="tab" aria-selected="false" data-filter=".photography">jugglers</a>
-                    </div>                    
-                    
-                    <ul className="works-grid work-grid-3 work-grid-gut clearfix hide-titles" id="work-grid">
-                        
-                        <li className="work-item mix photography">
-                            <a href="images/portfolio/full-project-1.jpg" className="work-lightbox-link mfp-image">
-                                <div className="work-img">
-                                    <div className="work-img-bg wow-p scalexIn"></div>
-                                    <img src={trap1} alt="Work Description" className="wow-p fadeIn" data-wow-delay="1s" />
-                                </div>
-                                <div className="work-intro">
-                                    <h3 className="work-title">Tripple Trapeze</h3>
-                                    <div className="work-descr">
-                                        Details 
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        
-                        <li className="work-item mix branding design">
-                            <a href="portfolio-single-1-dark.html" className="work-ext-link">
-                                <div className="work-img">
-                                    <div className="work-img-bg wow-p scalexIn"></div>
-                                    <img src={trap1} alt="Work Description" className="wow-p fadeIn" data-wow-delay="1s" />
-                                </div>
-                                <div className="work-intro">
-                                    <h3 className="work-title">Tripple Trapeze</h3>
-                                    <div className="work-descr">
-                                        Details
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        
-                        <li className="work-item mix branding">
-                            <a href="portfolio-single-1-dark.html" className="work-ext-link">
-                                <div className="work-img">
-                                    <div className="work-img-bg wow-p scalexIn"></div>
-                                    <img src={trap1} alt="Work Description" className="wow-p fadeIn" data-wow-delay="1s" />
-                                </div>
-                                <div className="work-intro">
-                                    <h3 className="work-title">Tripple Trapeze</h3>
-                                    <div className="work-descr">
-                                        Details
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        
-                        <li className="work-item mix design photography">
-                            <a href="portfolio-single-1-dark.html" className="work-ext-link">
-                                <div className="work-img">
-                                    <div className="work-img-bg wow-p scalexIn"></div>
-                                    <img src={trap1} alt="Work Description" className="wow-p fadeIn" data-wow-delay="1s" />
-                                </div>
-                                <div className="work-intro">
-                                    <h3 className="work-title">Tripple Trapeze</h3>
-                                    <div className="work-descr">
-                                        Details
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        
-                        <li className="work-item mix design">
-                            <a href="portfolio-single-1-dark.html" className="work-ext-link">
-                                <div className="work-img">
-                                    <div className="work-img-bg wow-p scalexIn"></div>
-                                    <img src={trap1} alt="Work Description" className="wow-p fadeIn" data-wow-delay="1s" />
-                                </div>
-                                <div className="work-intro">
-                                    <h3 className="work-title">Tripple Trapeze</h3>
-                                    <div className="work-descr">
-                                        Details
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        
-                        <li className="work-item mix design branding">
-                            <a href="images/portfolio/full-project-6.jpg" className="work-lightbox-link mfp-image">
-                                <div className="work-img">
-                                    <div className="work-img-bg wow-p scalexIn"></div>
-                                    <img src={trap1} alt="Work Description" className="wow-p fadeIn" data-wow-delay="1s" />
-                                </div>
-                                <div className="work-intro">
-                                    <h3 className="work-title">Tripple Trapeze</h3>
-                                    <div className="work-descr">
-                                        Details
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        
-                    </ul>
-                    <section className="small-section bg-dark-lighter light-content " >
-                        <div className="container relative ">
-                            <div className="row wow fadeInUpShort">
-                                <div className="col-lg-5 offset-lg-2">
-                                    <h3 className="call-action-1-heading">Want to see more works?</h3>
-                                    <div className="call-action-1-decription mb-0 pb-md-20">
-                                        Proin fringilla augue at maximus vestibulum nam pulvinar vitae integer non dapibus diam, ac eleifend lectus.
-                                    </div>                                        
-                                </div>
-                                <div className="col-lg-3 pt-10 text-lg-end">
-                                    <div className="local-scroll">
-                                        <a href="portfolio-wide-gutter-3col-dark.html" className="btn btn-mod btn-w btn-large btn-round">View Portfolio</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-
-                </div>
-            </section>
-            
-            <hr className="mt-0 mb-0 white" />
+          
 
 
             <section className="page-section bg-dark bg-dark-alfa-70 bg-scroll light-content" >
@@ -650,7 +606,7 @@ function MainContent(props){
                     <div className=" col-lg-8 offset-lg-2 wow fadeInUpShort">
                         
                         <div className="text-center mb-50 mb-sm-20">
-                            <h2 className="section-title">What People Say?</h2>
+                            <h2 className="section-title gloss-font">What People Say?</h2>
                         </div>
                         
                         <div className="text-slider">
@@ -705,7 +661,7 @@ function MainContent(props){
                 <div className="container relative">
                     
                     <div className="text-center mb-80 mb-sm-50">
-                        <h2 className="section-title">Contact</h2>
+                        <h2 className="section-title gloss-font">Contact</h2>
                         <p className="section-title-descr">
                             For Inquiries
                         </p>
@@ -789,11 +745,10 @@ function MainContent(props){
                     <div className="footer-text">
                         
                         <div className="footer-copy">
-                            <a href="index.html">© RiazTech</a>.
                         </div>
                         
                         <div className="footer-made">
-                            Ligting Up Cultural Values Through IT
+                            Ligting Up Cultural Values
                         </div>
                         
                     </div>

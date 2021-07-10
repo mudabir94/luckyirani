@@ -37,7 +37,7 @@ function Header(props){
                             
                             
                             <li>
-                                <a href="#" className="mn-has-sub">Pages <i className="mn-has-sub-icon"></i></a>
+                                <a href="#" className="mn-has-sub">About <i className="mn-has-sub-icon"></i></a>
                                 
                              
                             </li>

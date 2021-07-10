@@ -372,3 +372,15 @@
       text-shadow: none;
   }    
 }
+.background-parallex-services {
+  background-image: url("../images/dummy/colorfullbkgd1.jpg");
+}
+.background-parallex-contact {
+  position: relative;
+  background-image: url("../images/dummy/bkgd2.png");
+}
+.background-parallex-vision {
+  
+  background-image: url("../images/dummy/vission.jpg") ;
+
+}
