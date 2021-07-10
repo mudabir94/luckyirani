@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/luckyirani/static/css/main.a617e044.chunk.css",
-    "main.js": "/luckyirani/static/js/main.393f0699.chunk.js",
-    "main.js.map": "/luckyirani/static/js/main.393f0699.chunk.js.map",
+    "main.js": "/luckyirani/static/js/main.e57af44d.chunk.js",
+    "main.js.map": "/luckyirani/static/js/main.e57af44d.chunk.js.map",
     "runtime-main.js": "/luckyirani/static/js/runtime-main.9d57e90d.js",
     "runtime-main.js.map": "/luckyirani/static/js/runtime-main.9d57e90d.js.map",
     "static/js/2.edc6dbbf.chunk.js": "/luckyirani/static/js/2.edc6dbbf.chunk.js",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.9d57e90d.js",
     "static/js/2.edc6dbbf.chunk.js",
     "static/css/main.a617e044.chunk.css",
-    "static/js/main.393f0699.chunk.js"
+    "static/js/main.e57af44d.chunk.js"
   ]
 }
