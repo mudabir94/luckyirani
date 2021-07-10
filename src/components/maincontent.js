@@ -63,16 +63,11 @@ function MainContent(props){
                     </div>
                 </section>
                 
-
-
-
-                <section className="page-section" id="about">
+                <section  id="about">
                     <div className="container relative vision-text">
                         
                         <div className="count-wrapper">
                             <div className="row">
-                                
-                                
                                 <div className="col-md-6 col-lg-3 mb-md-30  vision-boxes"style={{background:"#d44343"}} >
                                     <div className="count-item ">
                                         <div className="count-bg wow scalexIn"></div>
