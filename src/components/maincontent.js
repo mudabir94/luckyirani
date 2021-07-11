@@ -1,7 +1,8 @@
 import React from 'react';
-import Video2 from "../video/girlheader.mp4"
-import trap1 from "../images/trap1.jpg"
-import trap2 from "../images/trap2.jpg"
+import Video2 from "../video/headervid.mkv"
+import trap1 from "../images/side1.jpg"
+
+
 
 
 
@@ -12,7 +13,7 @@ function MainContent(props){
         <React.Fragment>
 
             <main id="main">
-                <section className="home-section bg-dark-alfa-50 light-content relative"  id="home">
+                <section className="page-section bg-dark-alfa-50 light-content relative"  id="home">
                        <div className="container min-height-100vh d-flex align-items-center pt-100 pb-100">
                         
                         <div className="bg-video-wrapper">
@@ -22,7 +23,7 @@ function MainContent(props){
                             </video>
                             <div className="bg-video-overlay bg-dark-alfa-30"></div>
                         </div>
-                        <a href="#" role="button" className="bg-video-button-muted"><i className="fa fa-volume-off"></i></a>
+                        <a href="/#" role="button" className="bg-video-button-muted"><i className="fa fa-volume-off"></i></a>
                         
                         <div className="home-content">
                             <h1 className="hs-line-3 mb-40 mb-xs-20 wow fadeInUpShort luckraniheaderneontext" data-wow-delay=".1s"><span id="lucky-word">Lucky</span> <span id="irani-word">Irani</span><span id="circus-word"> Circus</span></h1>
@@ -47,12 +48,12 @@ function MainContent(props){
                     
                 </section>
 
-                <section class="small-section bg-dark light-content ">
-                    <div class="container relative">
-                        <div class="row wow fadeInUpShort">
-                            <div class="col-md-8 offset-md-2 text-center">
-                                <h3 class="call-action-1-heading gloss-font" style={{color:"#ffb400"}}>Vision</h3>
-                                <div class="call-action-1-decription mb-60 mb-sm-30 vision-text">
+                <section className="small-section bg-dark light-content ">
+                    <div className="container relative">
+                        <div className="row wow fadeInUpShort">
+                            <div className="col-md-8 offset-md-2 text-center">
+                                <h3 className="call-action-1-heading gloss-font" style={{color:"#ffb400"}}>Vision</h3>
+                                <div className="call-action-1-decription mb-60 mb-sm-30 vision-text">
                                     Our vision is to spread happiness and inspire our audience to follow their dreams. We know this is a very big challenge to accomplish by performing arts, but we believe it ́s important to set our goals high.
                                     We think the combination of impressive circus skills, humor and the intensive interaction with the audience on stage is a very good toolbox to deliver the message we believe in.
                                 </div>                                        
@@ -144,7 +145,7 @@ function MainContent(props){
                 
                 
                 <div className="text-center mb-80 mb-sm-50">
-                    <h2 className="section-title gloss-font">BREATHING ACTS</h2>
+                    <h2 className="section-title gloss-font">BREATHTAKING ACTS</h2>
                     <p className="section-title-descr">
                         Take a look at some of them
                     </p>
@@ -152,105 +153,106 @@ function MainContent(props){
                 
                                     
                 <div className="works-filter text-center" role="tablist">
-                    <a href="#" className="filter active" role="tab" aria-selected="true" data-filter="*">Trapeze Acts</a>
-                    <a href="#branding" className="filter" role="tab" aria-selected="false" data-filter=".branding">Acrobats</a>
-                    <a href="#design" className="filter" role="tab" aria-selected="false" data-filter=".design">Clowns</a>
-                    <a href="#photography" className="filter" role="tab" aria-selected="false" data-filter=".photography">jugglers</a>
-                </div>                    
-                
-                <ul className="works-grid work-grid-3 work-grid-gut clearfix hide-titles" id="work-grid">
-                    
-                    <li className="work-item mix photography">
-                        <a href="images/portfolio/full-project-1.jpg" className="work-lightbox-link mfp-image">
-                            <div className="work-img">
-                                <div className="work-img-bg wow-p scalexIn"></div>
-                                <img src={trap1} alt="Work Description" className="wow-p fadeIn" data-wow-delay="1s" />
-                            </div>
-                            <div className="work-intro">
-                                <h3 className="work-title">Tripple Trapeze</h3>
-                                <div className="work-descr">
-                                    Details 
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-                    
-                    <li className="work-item mix branding design">
-                        <a href="portfolio-single-1-dark.html" className="work-ext-link">
-                            <div className="work-img">
-                                <div className="work-img-bg wow-p scalexIn"></div>
-                                <img src={trap2} alt="Work Description" className="wow-p fadeIn" data-wow-delay="1s" />
-                            </div>
-                            <div className="work-intro">
-                                <h3 className="work-title">Tripple Trapeze</h3>
-                                <div className="work-descr">
-                                    Details
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-                    
-                    <li className="work-item mix branding">
-                        <a href="portfolio-single-1-dark.html" className="work-ext-link">
-                            <div className="work-img">
-                                <div className="work-img-bg wow-p scalexIn"></div>
-                                <img src={trap1} alt="Work Description" className="wow-p fadeIn" data-wow-delay="1s" />
-                            </div>
-                            <div className="work-intro">
-                                <h3 className="work-title">Tripple Trapeze</h3>
-                                <div className="work-descr">
-                                    Details
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-                    
-                    <li className="work-item mix design photography">
-                        <a href="portfolio-single-1-dark.html" className="work-ext-link">
-                            <div className="work-img">
-                                <div className="work-img-bg wow-p scalexIn"></div>
-                                <img src={trap1} alt="Work Description" className="wow-p fadeIn" data-wow-delay="1s" />
-                            </div>
-                            <div className="work-intro">
-                                <h3 className="work-title">Tripple Trapeze</h3>
-                                <div className="work-descr">
-                                    Details
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-                    
-                    <li className="work-item mix design">
-                        <a href="portfolio-single-1-dark.html" className="work-ext-link">
-                            <div className="work-img">
-                                <div className="work-img-bg wow-p scalexIn"></div>
-                                <img src={trap1} alt="Work Description" className="wow-p fadeIn" data-wow-delay="1s" />
-                            </div>
-                            <div className="work-intro">
-                                <h3 className="work-title">Tripple Trapeze</h3>
-                                <div className="work-descr">
-                                    Details
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-                    
-                    <li className="work-item mix design branding">
-                        <a href="images/portfolio/full-project-6.jpg" className="work-lightbox-link mfp-image">
-                            <div className="work-img">
-                                <div className="work-img-bg wow-p scalexIn"></div>
-                                <img src={trap1} alt="Work Description" className="wow-p fadeIn" data-wow-delay="1s" />
-                            </div>
-                            <div className="work-intro">
-                                <h3 className="work-title">Tripple Trapeze</h3>
-                                <div className="work-descr">
-                                    Details
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-                    
-                </ul>
+                    <a href="/#" className="filter active" role="tab" aria-selected="true" data-filter="*">Trapeze Acts</a>
+                    <a href="/#branding" className="filter" role="tab" aria-selected="false" data-filter=".branding">Hoops</a>
+                    <a href="/#design" className="filter" role="tab" aria-selected="false" data-filter=".design">Clown Act</a>
+                    <a href="/#photography" className="filter" role="tab" aria-selected="false" data-filter=".photography">Juggling</a>
+                </div>                       
+                <ul className="works-grid work-grid-3 work-grid-gut clearfix hover-white hide-titles" id="work-grid">
+                            
+                            <li className="work-item mix photography">
+                                <a href="/#" className="work-lightbox-link mfp-image">
+                                    <div className="work-img">
+                                        <div className="work-img-bg wow-p scalexIn"></div>
+                                        <img src={trap1} alt="Work Description" className="wow-p fadeIn" data-wow-delay="1s" />
+                                    </div>
+                                    <div className="work-intro">
+                                        <h3 className="work-title">Green Leaf</h3>
+                                        <div className="work-descr">
+                                            Lightbox 
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            
+                            <li className="work-item mix branding design">
+                                <a href="portfolio-single-1.html" className="work-ext-link">
+                                    <div className="work-img">
+                                        <div className="work-img-bg wow-p scalexIn"></div>
+                                        <img src={trap1} alt="Work Description" className="wow-p fadeIn" data-wow-delay="1s" />
+                                    </div>
+                                    <div className="work-intro">
+                                        <h3 className="work-title">Photo Lighting</h3>
+                                        <div className="work-descr">
+                                            External Page
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                         
+                            <li className="work-item mix branding">
+                                <a href="portfolio-single-1.html" className="work-ext-link">
+                                    <div className="work-img">
+                                        <div className="work-img-bg wow-p scalexIn"></div>
+                                        <img src={trap1} alt="Work Description" className="wow-p fadeIn" data-wow-delay="1s" />
+                                    </div>
+                                    <div className="work-intro">
+                                        <h3 className="work-title">Green Branch</h3>
+                                        <div className="work-descr">
+                                            External Page
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                     
+                            <li className="work-item mix design photography">
+                                <a href="portfolio-single-1.html" className="work-ext-link">
+                                    <div className="work-img">
+                                        <div className="work-img-bg wow-p scalexIn"></div>
+                                        <img src={trap1} alt="Work Description" className="wow-p fadeIn" data-wow-delay="1s" />
+                                    </div>
+                                    <div className="work-intro">
+                                        <h3 className="work-title">White Chair</h3>
+                                        <div className="work-descr">
+                                            External Page
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                       
+                            <li className="work-item mix design">
+                                <a href="portfolio-single-1.html" className="work-ext-link">
+                                    <div className="work-img">
+                                        <div className="work-img-bg wow-p scalexIn"></div>
+                                        <img src={trap1} alt="Work Description" className="wow-p fadeIn" data-wow-delay="1s" />
+                                    </div>
+                                    <div className="work-intro">
+                                        <h3 className="work-title">White Table</h3>
+                                        <div className="work-descr">
+                                            External Page
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            
+                            <li className="work-item mix design branding">
+                                <a href="images/portfolio/full-project-6.jpg" className="work-lightbox-link mfp-image">
+                                    <div className="work-img">
+                                        <div className="work-img-bg wow-p scalexIn"></div>
+                                        <img src={trap1} alt="Work Description" className="wow-p fadeIn" data-wow-delay="1s" />
+                                    </div>
+                                    <div className="work-intro">
+                                        <h3 className="work-title">The Book</h3>
+                                        <div className="work-descr">
+                                            Lightbox
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            
+                    </ul>
+               
+               
                 <section className="small-section bg-dark-lighter light-content " >
                     <div className="container relative ">
                         <div className="row wow fadeInUpShort">
@@ -456,7 +458,7 @@ function MainContent(props){
                         <div className="home-content wow fadeInUpShort">
                             <h1 className="hs-line-7 mb-60 mb-xs-40 gloss-font">Services</h1>
                             <div className="local-scroll mb-20">
-                                <a href="#" className="btn btn-mod btn-w btn-medium btn-round mx-md-1">View Services</a>
+                                <a href="/#" className="btn btn-mod btn-w btn-medium btn-round mx-md-1">View Services</a>
                             </div>
                         </div>
                         
@@ -731,11 +733,11 @@ function MainContent(props){
                 <div className="container">
                     
                     <div className="footer-social-links mb-90 mb-xs-40">
-                        <a href="#" title="Facebook" target="_blank" data-aos="fade-up-right" ><i className="fab fa-facebook-f"></i> <span className="sr-only">Facebook profile</span></a>
-                        <a href="#" title="Twitter" target="_blank" data-aos="fade-up-right" data-aos-duration="200"><i className="fab fa-twitter"></i> <span className="sr-only">Twitter profile</span></a>
-                        <a href="#" title="Twitter" target="_blank" data-aos="fade-down-right"data-aos-duration="400"><i className="fab fa-vimeo-v"></i> <span className="sr-only">Vimeo profile</span></a>
-                        <a href="#" title="Behance" target="_blank"  data-aos="fade-up-left" data-aos-duration="600"><i className="fab fa-behance"></i> <span className="sr-only">Behance profile</span></a>
-                        <a href="#" title="Pinterest" target="_blank" data-aos="fade-up-left" data-aos-duration="800"><i className="fab fa-pinterest"></i> <span className="sr-only">Pinterest profile</span></a>
+                        <a href="/#" title="Facebook" target="_blank" data-aos="fade-up-right" ><i className="fab fa-facebook-f"></i> <span className="sr-only">Facebook profile</span></a>
+                        <a href="/#" title="Twitter" target="_blank" data-aos="fade-up-right" data-aos-duration="200"><i className="fab fa-twitter"></i> <span className="sr-only">Twitter profile</span></a>
+                        <a href="/#" title="Twitter" target="_blank" data-aos="fade-down-right"data-aos-duration="400"><i className="fab fa-vimeo-v"></i> <span className="sr-only">Vimeo profile</span></a>
+                        <a href="/#" title="Behance" target="_blank"  data-aos="fade-up-left" data-aos-duration="600"><i className="fab fa-behance"></i> <span className="sr-only">Behance profile</span></a>
+                        <a href="/#" title="Pinterest" target="_blank" data-aos="fade-up-left" data-aos-duration="800"><i className="fab fa-pinterest"></i> <span className="sr-only">Pinterest profile</span></a>
                     </div>
                     <div className="footer-text">
                         

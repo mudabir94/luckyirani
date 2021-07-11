@@ -57,3 +57,101 @@
     
 </div>
 </div>
+
+
+
+
+ 
+<ul className="works-grid work-grid-3 work-grid-gut clearfix hide-titles" id="work-grid">
+                    
+<li className="work-item mix photography">
+    <a href="#" className="work-lightbox-link mfp-image">
+        <div className="work-img">
+            <div className="work-img-bg wow-p scalexIn"></div>
+            <img src={trap1} alt="Work Description" className="wow-p fadeIn" data-wow-delay="1s" />
+        </div>
+        <div className="work-intro">
+            <h3 className="work-title">Trapeze</h3>
+            <div className="work-descr">
+                Details 
+            </div>
+        </div>
+    </a>
+</li>
+
+<li className="work-item mix branding design">
+    <a href="#" className="work-ext-link">
+        <div className="work-img">
+            <div className="work-img-bg wow-p scalexIn"></div>
+            <img src={trap1} alt="Work Description" className="wow-p fadeIn" data-wow-delay="1s" />
+        </div>
+        <div className="work-intro">
+            <h3 className="work-title">Trapeze</h3>
+            <div className="work-descr">
+                Details
+            </div>
+        </div>
+    </a>
+</li>
+
+<li className="work-item mix branding">
+    <a href="#" className="work-ext-link">
+        <div className="work-img">
+            <div className="work-img-bg wow-p scalexIn"></div>
+            <img src={trap1} alt="Work Description" className="wow-p fadeIn" data-wow-delay="1s" />
+        </div>
+        <div className="work-intro">
+            <h3 className="work-title">Trapeze</h3>
+            <div className="work-descr">
+                Details
+            </div>
+        </div>
+    </a>
+</li>
+
+<li className="work-item mix design photography">
+    <a href="#" className="work-ext-link">
+        <div className="work-img">
+            <div className="work-img-bg wow-p scalexIn"></div>
+            <img src={trap1} alt="Work Description" className="wow-p fadeIn" data-wow-delay="1s" />
+        </div>
+        <div className="work-intro">
+            <h3 className="work-title">Trapeze</h3>
+            <div className="work-descr">
+                Details
+            </div>
+        </div>
+    </a>
+</li>
+
+<li className="work-item mix design">
+    <a href="#" className="work-ext-link">
+        <div className="work-img">
+            <div className="work-img-bg wow-p scalexIn"></div>
+            <img src={trap1} alt="Work Description" className="wow-p fadeIn" data-wow-delay="1s" />
+        </div>
+        <div className="work-intro">
+            <h3 className="work-title">Trapeze</h3>
+            <div className="work-descr">
+                Details
+            </div>
+        </div>
+    </a>
+</li>
+
+<li className="work-item mix design branding">
+    <a href="#" className="work-lightbox-link mfp-image">
+        <div className="work-img">
+            <div className="work-img-bg wow-p scalexIn"></div>
+            <img src={trap1} alt="Work Description" className="wow-p fadeIn" data-wow-delay="1s" />
+        </div>
+        <div className="work-intro">
+            <h3 className="work-title">Trapeze</h3>
+            <div className="work-descr">
+                Details
+            </div>
+        </div>
+    </a>
+</li>
+
+</ul>
