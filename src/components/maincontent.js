@@ -153,10 +153,7 @@ function MainContent(props){
                 
                                     
                 <div className="works-filter text-center" role="tablist">
-                    <a href="/#" className="filter active" role="tab" aria-selected="true" data-filter="*">Trapeze Acts</a>
-                    <a href="/#branding" className="filter" role="tab" aria-selected="false" data-filter=".branding">Hoops</a>
-                    <a href="/#design" className="filter" role="tab" aria-selected="false" data-filter=".design">Clown Act</a>
-                    <a href="/#photography" className="filter" role="tab" aria-selected="false" data-filter=".photography">Juggling</a>
+                    <a href="/#" className="filter active" role="tab" aria-selected="true" data-filter="*">Acts</a>
                 </div>                       
                 <ul className="works-grid work-grid-3 work-grid-gut clearfix hover-white hide-titles" id="work-grid">
                             
