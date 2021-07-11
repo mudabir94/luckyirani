@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/luckyirani/static/css/main.a617e044.chunk.css",
-    "main.js": "/luckyirani/static/js/main.e57af44d.chunk.js",
-    "main.js.map": "/luckyirani/static/js/main.e57af44d.chunk.js.map",
+    "main.js": "/luckyirani/static/js/main.bea375c9.chunk.js",
+    "main.js.map": "/luckyirani/static/js/main.bea375c9.chunk.js.map",
     "runtime-main.js": "/luckyirani/static/js/runtime-main.9d57e90d.js",
     "runtime-main.js.map": "/luckyirani/static/js/runtime-main.9d57e90d.js.map",
     "static/js/2.edc6dbbf.chunk.js": "/luckyirani/static/js/2.edc6dbbf.chunk.js",
@@ -12,14 +12,13 @@
     "index.html": "/luckyirani/index.html",
     "static/css/main.a617e044.chunk.css.map": "/luckyirani/static/css/main.a617e044.chunk.css.map",
     "static/js/2.edc6dbbf.chunk.js.LICENSE.txt": "/luckyirani/static/js/2.edc6dbbf.chunk.js.LICENSE.txt",
-    "static/media/girlheader.118d5484.mp4": "/luckyirani/static/media/girlheader.118d5484.mp4",
-    "static/media/trap1.03ea46c2.jpg": "/luckyirani/static/media/trap1.03ea46c2.jpg",
-    "static/media/trap2.9693bacb.jpg": "/luckyirani/static/media/trap2.9693bacb.jpg"
+    "static/media/headervid.6a6b2cef.mkv": "/luckyirani/static/media/headervid.6a6b2cef.mkv",
+    "static/media/side1.548abb35.jpg": "/luckyirani/static/media/side1.548abb35.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.9d57e90d.js",
     "static/js/2.edc6dbbf.chunk.js",
     "static/css/main.a617e044.chunk.css",
-    "static/js/main.e57af44d.chunk.js"
+    "static/js/main.bea375c9.chunk.js"
   ]
 }
