@@ -164,9 +164,9 @@ function MainContent(props){
                                         <img src={trap1} alt="Work Description" className="wow-p fadeIn" data-wow-delay="1s" />
                                     </div>
                                     <div className="work-intro">
-                                        <h3 className="work-title">Green Leaf</h3>
+                                        <h3 className="work-title">Trapeze Acts</h3>
                                         <div className="work-descr">
-                                            Lightbox 
+                                            <a href="#" style={{color:"#d44343"}}>Show More</a> 
                                         </div>
                                     </div>
                                 </a>
@@ -179,9 +179,9 @@ function MainContent(props){
                                         <img src={trap1} alt="Work Description" className="wow-p fadeIn" data-wow-delay="1s" />
                                     </div>
                                     <div className="work-intro">
-                                        <h3 className="work-title">Photo Lighting</h3>
+                                        <h3 className="work-title">Clown Acts</h3>
                                         <div className="work-descr">
-                                            External Page
+                                            <a href="#" style={{color:"#d44343"}}>Show More</a> 
                                         </div>
                                     </div>
                                 </a>
@@ -194,9 +194,9 @@ function MainContent(props){
                                         <img src={trap1} alt="Work Description" className="wow-p fadeIn" data-wow-delay="1s" />
                                     </div>
                                     <div className="work-intro">
-                                        <h3 className="work-title">Green Branch</h3>
+                                        <h3 className="work-title">Juggling</h3>
                                         <div className="work-descr">
-                                            External Page
+                                            <a href="#" style={{color:"#d44343"}}>Show More</a> 
                                         </div>
                                     </div>
                                 </a>
@@ -209,9 +209,9 @@ function MainContent(props){
                                         <img src={trap1} alt="Work Description" className="wow-p fadeIn" data-wow-delay="1s" />
                                     </div>
                                     <div className="work-intro">
-                                        <h3 className="work-title">White Chair</h3>
+                                        <h3 className="work-title">Hoops</h3>
                                         <div className="work-descr">
-                                            External Page
+                                            <a href="#" style={{color:"#d44343"}}>Show More</a> 
                                         </div>
                                     </div>
                                 </a>
@@ -224,9 +224,9 @@ function MainContent(props){
                                         <img src={trap1} alt="Work Description" className="wow-p fadeIn" data-wow-delay="1s" />
                                     </div>
                                     <div className="work-intro">
-                                        <h3 className="work-title">White Table</h3>
+                                        <h3 className="work-title">Air Balance</h3>
                                         <div className="work-descr">
-                                            External Page
+                                            <a href="#" style={{color:"#d44343"}}>Show More</a> 
                                         </div>
                                     </div>
                                 </a>
@@ -239,9 +239,9 @@ function MainContent(props){
                                         <img src={trap1} alt="Work Description" className="wow-p fadeIn" data-wow-delay="1s" />
                                     </div>
                                     <div className="work-intro">
-                                        <h3 className="work-title">The Book</h3>
+                                        <h3 className="work-title">Wire Balance</h3>
                                         <div className="work-descr">
-                                            Lightbox
+                                            <a href="#" style={{color:"#d44343"}}>Show More</a> 
                                         </div>
                                     </div>
                                 </a>
