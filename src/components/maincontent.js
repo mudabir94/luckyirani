@@ -1,12 +1,6 @@
 import React from 'react';
 import Video2 from "../video/headervid.mkv"
-import trap1 from "../images/side1.jpg"
-
-
-
-
-
-
+import trap1 from "../images/img1.jpg"
 
 function MainContent(props){
     return (

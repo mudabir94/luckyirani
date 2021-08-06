@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/luckyirani/static/css/main.a617e044.chunk.css",
-    "main.js": "/luckyirani/static/js/main.cb92027d.chunk.js",
-    "main.js.map": "/luckyirani/static/js/main.cb92027d.chunk.js.map",
+    "main.js": "/luckyirani/static/js/main.54250061.chunk.js",
+    "main.js.map": "/luckyirani/static/js/main.54250061.chunk.js.map",
     "runtime-main.js": "/luckyirani/static/js/runtime-main.9d57e90d.js",
     "runtime-main.js.map": "/luckyirani/static/js/runtime-main.9d57e90d.js.map",
     "static/js/2.edc6dbbf.chunk.js": "/luckyirani/static/js/2.edc6dbbf.chunk.js",
@@ -13,12 +13,12 @@
     "static/css/main.a617e044.chunk.css.map": "/luckyirani/static/css/main.a617e044.chunk.css.map",
     "static/js/2.edc6dbbf.chunk.js.LICENSE.txt": "/luckyirani/static/js/2.edc6dbbf.chunk.js.LICENSE.txt",
     "static/media/headervid.6a6b2cef.mkv": "/luckyirani/static/media/headervid.6a6b2cef.mkv",
-    "static/media/side1.548abb35.jpg": "/luckyirani/static/media/side1.548abb35.jpg"
+    "static/media/img1.ac3b2302.jpg": "/luckyirani/static/media/img1.ac3b2302.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.9d57e90d.js",
     "static/js/2.edc6dbbf.chunk.js",
     "static/css/main.a617e044.chunk.css",
-    "static/js/main.cb92027d.chunk.js"
+    "static/js/main.54250061.chunk.js"
   ]
 }
