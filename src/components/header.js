@@ -1,5 +1,5 @@
 import React from 'react';
-
+import logo from "../images/logo.gif"
 
 function Header(props){
     return (
@@ -9,7 +9,7 @@ function Header(props){
                     
                     <div className="nav-logo-wrap local-scroll">
                         <a href="index.html" className="logo">
-                            <img src="src/logo-white.png" alt="Company logo" width="188" height="37" />
+                            <img src={logo} alt="Company logo" width="188" height="37" />
                         </a>
                     </div>
                     

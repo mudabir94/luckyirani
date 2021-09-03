@@ -1,6 +1,14 @@
 import React from 'react';
-import Video2 from "../video/headervid.mkv"
-import trap1 from "../images/img1.jpg"
+import Video2 from "../video/headv2.mp4"
+import img1 from "../images/img1.jpg"
+import img2 from "../images/img2.jpg"
+import img3 from "../images/img3.jpg"
+import img4 from "../images/img4.jpg"
+import img5 from "../images/img5.jpg"
+import img6 from "../images/img6.jpg"
+
+
+
 
 function MainContent(props){
     return (
@@ -20,11 +28,11 @@ function MainContent(props){
                         <a href="/#" role="button" className="bg-video-button-muted"><i className="fa fa-volume-off"></i></a>
                         
                         <div className="home-content">
-                            <h1 className="hs-line-3 mb-40 mb-xs-20 wow fadeInUpShort luckraniheaderneontext" data-wow-delay=".1s"><span id="lucky-word">Lucky</span> <span id="irani-word">Irani</span><span id="circus-word"> Circus</span></h1>
+                            <h1 className="hs-line-3 mb-40 mb-xs-20 wow fadeInUpShort luckraniheaderneontext" data-wow-delay=".1s"><span id="lucky-word">The Great</span> <span id="irani-word">Pakistan</span><span id="circus-word"> Circus</span></h1>
                             <h2 className="hs-line-2 mb-70 mb-xs-40 wow fadeInUpShort" data-wow-delay=".2s">
                                 <span className="text-rotate">
                                     Coming to your town,
-                                    August 1st,
+                                    September 7th,
                                     Lahore,
                                     Buy tickets ASAP
                                 </span>
@@ -155,7 +163,7 @@ function MainContent(props){
                                 <a href="/#" className="work-lightbox-link mfp-image">
                                     <div className="work-img">
                                         <div className="work-img-bg wow-p scalexIn"></div>
-                                        <img src={trap1} alt="Work Description" className="wow-p fadeIn" data-wow-delay="1s" />
+                                        <img src={img1} alt="Work Description" className="wow-p fadeIn" data-wow-delay="1s" />
                                     </div>
                                     <div className="work-intro">
                                         <h3 className="work-title">Trapeze Acts</h3>
@@ -170,7 +178,7 @@ function MainContent(props){
                                 <a href="portfolio-single-1.html" className="work-ext-link">
                                     <div className="work-img">
                                         <div className="work-img-bg wow-p scalexIn"></div>
-                                        <img src={trap1} alt="Work Description" className="wow-p fadeIn" data-wow-delay="1s" />
+                                        <img src={img4} alt="Work Description" className="wow-p fadeIn" data-wow-delay="1s" />
                                     </div>
                                     <div className="work-intro">
                                         <h3 className="work-title">Clown Acts</h3>
@@ -185,7 +193,7 @@ function MainContent(props){
                                 <a href="portfolio-single-1.html" className="work-ext-link">
                                     <div className="work-img">
                                         <div className="work-img-bg wow-p scalexIn"></div>
-                                        <img src={trap1} alt="Work Description" className="wow-p fadeIn" data-wow-delay="1s" />
+                                        <img src={img5} alt="Work Description" className="wow-p fadeIn" data-wow-delay="1s" />
                                     </div>
                                     <div className="work-intro">
                                         <h3 className="work-title">Juggling</h3>
@@ -200,7 +208,7 @@ function MainContent(props){
                                 <a href="portfolio-single-1.html" className="work-ext-link">
                                     <div className="work-img">
                                         <div className="work-img-bg wow-p scalexIn"></div>
-                                        <img src={trap1} alt="Work Description" className="wow-p fadeIn" data-wow-delay="1s" />
+                                        <img src={img3} alt="Work Description" className="wow-p fadeIn" data-wow-delay="1s" />
                                     </div>
                                     <div className="work-intro">
                                         <h3 className="work-title">Hoops</h3>
@@ -215,7 +223,7 @@ function MainContent(props){
                                 <a href="portfolio-single-1.html" className="work-ext-link">
                                     <div className="work-img">
                                         <div className="work-img-bg wow-p scalexIn"></div>
-                                        <img src={trap1} alt="Work Description" className="wow-p fadeIn" data-wow-delay="1s" />
+                                        <img src={img6} alt="Work Description" className="wow-p fadeIn" data-wow-delay="1s" />
                                     </div>
                                     <div className="work-intro">
                                         <h3 className="work-title">Air Balance</h3>
@@ -230,7 +238,7 @@ function MainContent(props){
                                 <a href="images/portfolio/full-project-6.jpg" className="work-lightbox-link mfp-image">
                                     <div className="work-img">
                                         <div className="work-img-bg wow-p scalexIn"></div>
-                                        <img src={trap1} alt="Work Description" className="wow-p fadeIn" data-wow-delay="1s" />
+                                        <img src={img2} alt="Work Description" className="wow-p fadeIn" data-wow-delay="1s" />
                                     </div>
                                     <div className="work-intro">
                                         <h3 className="work-title">Wire Balance</h3>
@@ -327,7 +335,7 @@ function MainContent(props){
                             <div className="col-md-2 schedule-bold-text-green"><time>10:00 AM</time></div>
                             <div className="col-md-10">
                                 <div className="speaker">
-                                <img src={trap1} alt="Brenden Legros"/>
+                                <img src={img1} alt="Brenden Legros"/>
                                 </div>
                                 <h4 className="schedule-bold-text-red">Trapeze Act <span>Brenden Legros</span></h4>
                                 <p>Facere provident incidunt quos voluptas.</p>
@@ -338,7 +346,7 @@ function MainContent(props){
                             <div className="col-md-2 schedule-bold-text-green"><time>11:00 AM</time></div>
                             <div className="col-md-10">
                                 <div className="speaker">
-                                <img src={trap1} alt="Hubert Hirthe"/>
+                                <img src={img2} alt="Hubert Hirthe"/>
                                 </div>
                                 <h4 className="schedule-bold-text-red">Clown Act <span>Hubert Hirthe</span></h4>
                                 <p>Maiores dignissimos neque qui cum accusantium ut sit sint inventore.</p>
@@ -349,7 +357,7 @@ function MainContent(props){
                             <div className="col-md-2 schedule-bold-text-green"><time>12:00 AM</time></div>
                             <div className="col-md-10">
                                 <div className="speaker">
-                                <img src={trap1} alt="Cole Emmerich"/>
+                                <img src={img1} alt="Cole Emmerich"/>
                                 </div>
                                 <h4 className="schedule-bold-text-red">Gymnastics<span>Cole Emmerich</span></h4>
                                 <p>Veniam accusantium laborum nihil eos eaque accusantium aspernatur.</p>
@@ -364,7 +372,7 @@ function MainContent(props){
                             <div className="col-md-2 schedule-bold-text-green"><time>10:00 AM</time></div>
                             <div className="col-md-10">
                                 <div className="speaker">
-                                <img src={trap1} alt="Brenden Legros"/>
+                                <img src={img1} alt="Brenden Legros"/>
                                 </div>
                                 <h4 className="schedule-bold-text-red">Cycle Circus <span>Brenden Legros</span></h4>
                                 <p>Facere provident incidunt quos voluptas.</p>
@@ -375,7 +383,7 @@ function MainContent(props){
                             <div className="col-md-2 schedule-bold-text-green"><time>11:00 AM</time></div>
                             <div className="col-md-10">
                                 <div className="speaker">
-                                <img src={trap1} alt="Hubert Hirthe"/>
+                                <img src={img1} alt="Hubert Hirthe"/>
                                 </div>
                                 <h4 className="schedule-bold-text-red">Ladder Act <span>Hubert Hirthe</span></h4>
                                 <p>Maiores dignissimos neque qui cum accusantium ut sit sint inventore.</p>
@@ -390,7 +398,7 @@ function MainContent(props){
                             <div className="col-md-2 schedule-bold-text-green"><time>10:00 AM</time></div>
                             <div className="col-md-10">
                                 <div className="speaker">
-                                <img src={trap1} alt="Hubert Hirthe"/>
+                                <img src={img1} alt="Hubert Hirthe"/>
                                 </div>
                                 <h4 className="schedule-bold-text-red">Hula Hoop<span>Hubert Hirthe</span></h4>
                                 <p>Maiores dignissimos neque qui cum accusantium ut sit sint inventore.</p>
@@ -401,7 +409,7 @@ function MainContent(props){
                             <div className="col-md-2 schedule-bold-text-green"><time>11:00 AM</time></div>
                             <div className="col-md-10">
                                 <div className="speaker">
-                                <img src={trap1} alt="Cole Emmerich"/>
+                                <img src={img1} alt="Cole Emmerich"/>
                                 </div>
                                 <h4 className="schedule-bold-text-red">Ring Jumping <span>Cole Emmerich</span></h4>
                                 <p>Veniam accusantium laborum nihil eos eaque accusantium aspernatur.</p>
