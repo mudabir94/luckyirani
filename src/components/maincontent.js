@@ -54,10 +54,11 @@ function MainContent(props){
                     <div className="container relative">
                         <div className="row wow fadeInUpShort">
                             <div className="col-md-8 offset-md-2 text-center">
-                                <h3 className="call-action-1-heading gloss-font" style={{color:"#ffb400"}}>Vision</h3>
+                                <h3 className="call-action-1-heading gloss-font" style={{color:"#ffb400"}}>Its all about fun</h3>
                                 <div className="call-action-1-decription mb-60 mb-sm-30 vision-text">
-                                    Our vision is to spread happiness and inspire our audience to follow their dreams. We know this is a very big challenge to accomplish by performing arts, but we believe it ́s important to set our goals high.
-                                    We think the combination of impressive circus skills, humor and the intensive interaction with the audience on stage is a very good toolbox to deliver the message we believe in.
+                                The Great Pakistan Circus.
+                                An all new extreme show. Featuring Pakistan's top trial riders,
+                                "The Flair Riders". Exciting Juggling and the worlds best dare devil motorcycle Cage Riders. Breathtaking Aerial performances and much much more. A circus not to be missed.
                                 </div>                                        
                             
                                 
@@ -678,7 +679,7 @@ function MainContent(props){
                                             Call Us
                                         </div>
                                         <div className="ci-text">
-                                            +92 383 767 284 431
+                                            +923234454989
                                         </div>
                                     </div>
                                 </div>
@@ -709,7 +710,7 @@ function MainContent(props){
                                             Email
                                         </div>
                                         <div className="ci-text">
-                                            admin@luckyiranicircus.com
+                                            admin@greatpakcircus.com
                                         </div>
                                         <div className="ci-link">
                                             <a href="mailto:support@bestlooker.pro">Say Hello</a>
