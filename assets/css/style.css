@@ -134,6 +134,14 @@ Primary use: Multipurpose Template
     font-weight: 600;
     font-style: normal;
 }
+@font-face {
+    font-family:'bright';
+    src: 
+    url('../webfonts/Bright.woff2')  format('woff2'),
+    url('../webfonts/Bright.ttf')  format('truetype');
+    font-weight: inherit;
+    font-style: normal;
+  }
 
 
 /* ==============================
@@ -6308,7 +6316,7 @@ table.shopping-cart-table tr td{
     text-shadow: 2px 2px 4px black;
 }
 .gloss-font{
-    font-family: 'gloss';
+    font-family: 'bright';
 }
 .vision-boxes{
     text-shadow: 2px 2px 4px #242323;
