@@ -1,6 +1,7 @@
 import React from 'react';
 import Video2 from "../video/headv2.mp4"
-import img1 from "../images/img1.jpg"
+// import img1 from "../images/img1.jpg"
+import img1 from "../images/testimg.jpg"
 import img2 from "../images/img2.jpg"
 import img3 from "../images/img3.jpg"
 import img4 from "../images/img4.jpg"
@@ -54,7 +55,7 @@ function MainContent(props){
                     <div className="container relative">
                         <div className="row wow fadeInUpShort">
                             <div className="col-md-8 offset-md-2 text-center">
-                                <h3 className="call-action-1-heading gloss-font" style={{color:"#ffb400"}}>Its all about fun</h3>
+                                <h1 className="call-action-1-heading gloss-font" style={{color:"#ffb400"}}>Its All About Fun</h1>
                                 <div className="call-action-1-decription mb-60 mb-sm-30 vision-text">
                                 The Great Pakistan Circus.
                                 An all new extreme show. Featuring Pakistan's top trial riders,
@@ -76,7 +77,7 @@ function MainContent(props){
                                     <div className="count-item ">
                                         <div className="count-bg wow scalexIn"></div>
                                         <div className="relative wow fadeIn" data-wow-delay="1s">
-                                            <div className="breif-numbers">
+                                            <div className="breif-numbers" style={{color: "#ffffff"}}>
                                                 3.5
                                             </div>
                                             <div className="count-descr">
@@ -91,7 +92,7 @@ function MainContent(props){
                                     <div className="count-item">
                                         <div className="count-bg wow scalexIn"></div>
                                         <div className="relative wow fadeIn" data-wow-delay="1.1s">
-                                            <div className="breif-numbers">
+                                            <div className="breif-numbers" style={{color: "#ffffff"}}>
                                                 40K
                                             </div>
                                             <div className="count-descr">
@@ -106,7 +107,7 @@ function MainContent(props){
                                     <div className="count-item">
                                         <div className="count-bg wow scalexIn"></div>
                                         <div className="relative wow fadeIn" data-wow-delay="1.2s">
-                                            <div className="breif-numbers">
+                                            <div className="breif-numbers" style={{color: "#ffffff"}}>
                                                 100
                                             </div>
                                             <div className="count-descr">
@@ -117,16 +118,16 @@ function MainContent(props){
                                     </div>
                                 </div>
                                 
-                                <div className="col-md-6 col-lg-3 mb-md-30 vision-boxes" style={{background:"#9ed450"}}>
+                                <div className="col-md-6 col-lg-3 mb-md-30 vision-boxes" style={{background:"#21409A"}}>
                                     <div className="count-item">
                                         <div className="count-bg wow scalexIn"></div>
                                         <div className="relative wow fadeIn" data-wow-delay="1.3s">
-                                            <div className="breif-numbers">
+                                            <div className="breif-numbers" style={{color: "#ffffff"}}>
                                                 20
                                             </div>
                                             <div className="count-descr">
                                                 <i className="fa fa-lightbulb"></i>
-                                                <span className="count-title">International Artists</span>
+                                                <span className="count-title" >International Artists</span>
                                             </div>
                                         </div>
                                     </div>
@@ -148,7 +149,7 @@ function MainContent(props){
                 
                 
                 <div className="text-center mb-80 mb-sm-50">
-                    <h2 className="section-title gloss-font">BREATHTAKING ACTS</h2>
+                    <h1 className="section-title gloss-font">Breathtaking Acts</h1>
                     <p className="section-title-descr">
                         Take a look at some of them
                     </p>
@@ -280,16 +281,16 @@ function MainContent(props){
                 <div className="container" data-aos="fade-up">
                     <div className="row about-event">
                     <div className="col-lg-6">
-                        <h2 className="gloss-font">About The Event</h2>
+                        <h1 className="gloss-font">About The Event</h1>
                         <p>Sed nam ut dolor qui repellendus iusto odit. Possimus inventore eveniet accusamus error amet eius aut
                         accusantium et. </p>
                     </div>
                     <div className="col-lg-3">
-                        <h3 className="gloss-font">Where</h3>
+                        <h1 className="gloss-font">Where</h1>
                         <p className="about-eventp">DHA, Lahore</p>
                     </div>
                     <div className="col-lg-3">
-                        <h3 className="gloss-font">When</h3>
+                        <h1 className="gloss-font">When</h1>
                         <p className="about-eventp">Monday to Wednesday<br/>1-3 August</p>
                     </div>
                     </div>
@@ -301,7 +302,7 @@ function MainContent(props){
             <section id="schedule" className="section-with-bg">
                     <div className="container" data-aos="fade-down" data-aos-delay="100">
                         <div className="section-header">
-                        <h2 className="gloss-font">Event Schedule</h2>
+                        <h1 className="gloss-font">Event Schedule</h1>
                         <p>Here is our event schedule</p>
                         </div>
 
@@ -469,14 +470,14 @@ function MainContent(props){
                 <div className="container" data-aos="fade-up">
 
                     <div className="section-header">
-                    <h2 className="gloss-font" >Buy Tickets</h2>
-                    <p>Ticket Prices.... </p>
+                    <h1 className="gloss-font" >Buy Tickets</h1>
+                    <p>Ticket Prices </p>
                     </div>
 
                     <div className="row">
                         <div className="col-lg-4" data-aos="fade-up" data-aos-delay="200">
-                                <div className="card mb-5 mb-lg-0">
-                                <div className="card-body">
+                                <div className="card mb-5 mb-lg-0" style={{background:"#21409A"}}>
+                                <div className="card-body" >
                                     <h5 className="card-title text-muted text-uppercase text-center">Standard Pass</h5>
                                     <h6 className="card-price text-center">Rs 250</h6>
                                     <hr/>
@@ -495,7 +496,7 @@ function MainContent(props){
                             </div>
 
                         <div className="col-lg-4" data-aos="fade-up" data-aos-delay="400">
-                    <div className="card mb-5 mb-lg-0" style={{background:"#BBC2CC"}}>
+                    <div className="card mb-5 mb-lg-0" style={{background:"#9068d4"}}>
                     <div className="card-body">
                         <h5 className="card-title text-muted text-uppercase text-center">Silver Pass</h5>
                         <h6 className="card-price text-center">Rs 500</h6>
@@ -515,7 +516,7 @@ function MainContent(props){
                 </div>
 
                         <div className="col-lg-4" data-aos="fade-up" data-aos-delay="600">
-                    <div className="card" style={{background:"#ffb400"}}>
+                    <div className="card" style={{background:"hsl(42, 100%, 50%)"}}>
                     <div className="card-body">
                         <h5 className="card-title text-muted text-uppercase text-center">Gold Pass</h5>
                         <h6 className="card-price text-center">Rs 1000</h6>
@@ -559,8 +560,8 @@ function MainContent(props){
                 <div className="container-fluid" data-aos="fade-up">
 
                     <div className="section-header">
-                    <h2 className="gloss-font">Event Venue</h2>
-                    <p>Event venue location info and gallery</p>
+                    <h1 className="gloss-font">Event Venue</h1>
+                    <p>Event venue location Information</p>
                     </div>
 
                     <div className="row g-0">
@@ -575,7 +576,7 @@ function MainContent(props){
                                 <div className="row justify-content-center">
                                 <div className="col-11 col-lg-8 position-relative">
                                     <h3>DHA,LAHORE</h3>
-                                    <p>DETAILS......</p>
+                                    <p>DETAILS...</p>
                                 </div>
                                 </div>
                             </div>
@@ -603,7 +604,7 @@ function MainContent(props){
                     <div className=" col-lg-8 offset-lg-2 wow fadeInUpShort">
                         
                         <div className="text-center mb-50 mb-sm-20">
-                            <h2 className="section-title gloss-font">What People Say?</h2>
+                            <h1 className="section-title gloss-font">What People Say?</h1>
                         </div>
                         
                         <div className="text-slider">
@@ -658,9 +659,8 @@ function MainContent(props){
                 <div className="container relative">
                     
                     <div className="text-center mb-80 mb-sm-50">
-                        <h2 className="section-title gloss-font">Contact</h2>
+                        <h1 className="section-title gloss-font">Contact</h1>
                         <p className="section-title-descr">
-                            For Inquiries
                         </p>
                     </div>
                     
