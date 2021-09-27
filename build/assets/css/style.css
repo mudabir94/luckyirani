@@ -333,8 +333,8 @@ img:not([draggable]), embed, object, video{
 
 .page-loader.dark .loader{
     border-top: 5px solid #d44343;
-    border-right: 8px solid #ffb400;
-    border-bottom: 5px solid #9ed450;
+    border-right: 8px solid hsl(42, 100%, 50%);
+    border-bottom: 5px solid #21409A;
     border-left: 8px solid #9068d4;
   
     -webkit-border-radius: 100%;
@@ -759,11 +759,11 @@ a.btn-mod:focus{
 
 .btn-mod.btn-w{
     color: #fff;
-    background: #9ed450;    
+    background: #21409A;    
 }
 .btn-mod.btn-w:hover,
 .btn-mod.btn-w:focus{
-    color: #9ed450;
+    color: #21409A;
     background: #fff;
     box-shadow: 10 5px 7px 10 rgba(0, 0, 0, 0.8);
 }
@@ -2733,10 +2733,11 @@ a.logo:hover{
 
 .section-title{
     margin-bottom: 3px;
-    font-size: 46px;
+    /* font-size: 46px; */
     font-weight: 600;
     line-height: 1.196;
-    letter-spacing: -0.04em;
+    letter-spacing: 0.1em;
+    word-spacing: 1px;
 }
 .section-title-descr{
     font-family: var(--font-global-alt);
@@ -3779,10 +3780,11 @@ a.logo:hover{
 .call-action-1-heading{
     margin-top: 0;
     margin-bottom: 0.5em;
-    font-size: 40px;
+    /* font-size: 40px; */
     font-weight: 600;
     line-height: 1.196;
-    letter-spacing: -0.03em;
+    letter-spacing: 0.1em;
+    word-spacing: 1px;
 }
 .call-action-1-decription{
     margin-bottom: 2em;
@@ -4157,7 +4159,7 @@ a.logo:hover{
     position: relative;
 }
 .ci-title{
-    color: #000;
+    color: #ffffff;
     font-size: 22px;
     font-weight: 600;
     letter-spacing: -0.02em;
@@ -4166,7 +4168,7 @@ a.logo:hover{
 .ci-text{
     font-family: var(--font-global-alt);
     line-height: 1.625;
-    color: #000;
+    color: #ffffff;
     font-size: larger;
     font-weight: bold;
 }
@@ -4218,12 +4220,12 @@ a.logo:hover{
     background-color: #fff;   
 }
 .light-content .ci-title{
-    color: #000;
+    color: #ffffff;
     font-size: larger;
     font-weight: bold;
 }
 .light-content .ci-text{
-    color: #000;
+    color: #ffffff;
     font-size: larger;
     font-weight: bold;
 }
@@ -6317,6 +6319,8 @@ table.shopping-cart-table tr td{
 }
 .gloss-font{
     font-family: 'bright';
+    letter-spacing: 0.1em;
+    word-spacing: 1px;
 }
 .vision-boxes{
     text-shadow: 2px 2px 4px #242323;

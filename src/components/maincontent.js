@@ -1,7 +1,6 @@
 import React from 'react';
 import Video2 from "../video/headv2.mp4"
-// import img1 from "../images/img1.jpg"
-import img1 from "../images/testimg.jpg"
+import img1 from "../images/img1.jpg"
 import img2 from "../images/img2.jpg"
 import img3 from "../images/img3.jpg"
 import img4 from "../images/img4.jpg"
@@ -168,7 +167,7 @@ function MainContent(props){
                                         <img src={img1} alt="Work Description" className="wow-p fadeIn" data-wow-delay="1s" />
                                     </div>
                                     <div className="work-intro">
-                                        <h3 className="work-title">Trapeze Acts</h3>
+                                        <h3 className="work-title">Clown Acts</h3>
                                         <div className="work-descr">
                                             <a href="#" style={{color:"#d44343"}}>Show More</a> 
                                         </div>
@@ -183,7 +182,7 @@ function MainContent(props){
                                         <img src={img4} alt="Work Description" className="wow-p fadeIn" data-wow-delay="1s" />
                                     </div>
                                     <div className="work-intro">
-                                        <h3 className="work-title">Clown Acts</h3>
+                                        <h3 className="work-title">All Acts</h3>
                                         <div className="work-descr">
                                             <a href="#" style={{color:"#d44343"}}>Show More</a> 
                                         </div>
