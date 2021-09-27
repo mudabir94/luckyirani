@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/luckyirani/static/css/main.a617e044.chunk.css",
-    "main.js": "/luckyirani/static/js/main.45b3c8fb.chunk.js",
-    "main.js.map": "/luckyirani/static/js/main.45b3c8fb.chunk.js.map",
+    "main.js": "/luckyirani/static/js/main.b554ad18.chunk.js",
+    "main.js.map": "/luckyirani/static/js/main.b554ad18.chunk.js.map",
     "runtime-main.js": "/luckyirani/static/js/runtime-main.9d57e90d.js",
     "runtime-main.js.map": "/luckyirani/static/js/runtime-main.9d57e90d.js.map",
     "static/js/2.edc6dbbf.chunk.js": "/luckyirani/static/js/2.edc6dbbf.chunk.js",
@@ -13,18 +13,18 @@
     "static/css/main.a617e044.chunk.css.map": "/luckyirani/static/css/main.a617e044.chunk.css.map",
     "static/js/2.edc6dbbf.chunk.js.LICENSE.txt": "/luckyirani/static/js/2.edc6dbbf.chunk.js.LICENSE.txt",
     "static/media/headv2.614e0f77.mp4": "/luckyirani/static/media/headv2.614e0f77.mp4",
-    "static/media/img2.e8f7deb9.jpg": "/luckyirani/static/media/img2.e8f7deb9.jpg",
-    "static/media/img3.ac3b2302.jpg": "/luckyirani/static/media/img3.ac3b2302.jpg",
-    "static/media/img4.8c7e42f9.jpg": "/luckyirani/static/media/img4.8c7e42f9.jpg",
-    "static/media/img5.562d1ca5.jpg": "/luckyirani/static/media/img5.562d1ca5.jpg",
-    "static/media/img6.7a645a66.jpg": "/luckyirani/static/media/img6.7a645a66.jpg",
-    "static/media/logo.14cc39db.png": "/luckyirani/static/media/logo.14cc39db.png",
-    "static/media/testimg.80d665a4.jpg": "/luckyirani/static/media/testimg.80d665a4.jpg"
+    "static/media/img1.80d665a4.jpg": "/luckyirani/static/media/img1.80d665a4.jpg",
+    "static/media/img2.9ee8344d.jpg": "/luckyirani/static/media/img2.9ee8344d.jpg",
+    "static/media/img3.728aa51e.jpg": "/luckyirani/static/media/img3.728aa51e.jpg",
+    "static/media/img4.bcc50f4a.jpg": "/luckyirani/static/media/img4.bcc50f4a.jpg",
+    "static/media/img5.fd07d7a7.jpg": "/luckyirani/static/media/img5.fd07d7a7.jpg",
+    "static/media/img6.93659e9e.jpg": "/luckyirani/static/media/img6.93659e9e.jpg",
+    "static/media/logo.14cc39db.png": "/luckyirani/static/media/logo.14cc39db.png"
   },
   "entrypoints": [
     "static/js/runtime-main.9d57e90d.js",
     "static/js/2.edc6dbbf.chunk.js",
     "static/css/main.a617e044.chunk.css",
-    "static/js/main.45b3c8fb.chunk.js"
+    "static/js/main.b554ad18.chunk.js"
   ]
 }
